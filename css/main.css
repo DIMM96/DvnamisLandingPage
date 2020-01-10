@@ -1,0 +1,131 @@
+.preloader-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.body {
+  background-color: black;
+}
+.main-header {
+  background-image: url(../img/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 600px;
+  color: white;
+  animation-delay: 1s;
+  animation-duration: 2s;
+}
+
+.main-header .showcase {
+  padding-top: 10px;
+}
+
+.img-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+
+.modal {
+  color: #333;
+}
+
+.row-1 {
+  opacity: 0;
+}
+
+#servicios {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 480px) {
+  .logo-image {
+    margin-top: 5px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .logo-image {
+    margin-top: 1px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .g-recaptcha {
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+}
+@media screen and (min-width: 701px) {
+  .g-recaptcha {
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 601px) {
+  .g-recaptcha {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 601px) {
+  .circle {
+    padding-top: 100px;
+  }
+}
+@media screen and (min-width: 801px) {
+  .circle {
+    padding-top: 30px;
+  }
+}
+
+.page-footer {
+  background-color: #034f84;
+}
+
+.texto1,
+.texto2,
+.texto3,
+.texto4,
+.texto5,
+.texto7,
+.texto8,
+.texto9,
+.texto10,
+.texto11,
+.texto12,
+.texto13,
+.texto14,
+.texto15,
+.texto16,
+.texto17,
+.texto18,
+.texto19,
+.texto20,
+.texto21,
+.texto22,
+.texto23,
+.texto24,
+.texto25,
+.textos1 {
+  opacity: 0;
+}
